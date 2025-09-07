@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Closed Beta — Casino (WhatsApp Fast-Track)</title>
+  <meta name="description" content="Join our Closed Beta — 18+ • Play-money only • Get your test account via WhatsApp" />
+
+  <!-- Meta Pixel Code -->
+  <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', 'YOUR_PIXEL_ID'); 
+    fbq('track', 'PageView');
+  </script>
+  <noscript>
+    <img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=YOUR_PIXEL_ID&ev=PageView&noscript=1"/>
+  </noscript>
+  <!-- End Meta Pixel Code -->
+
+  <style>
+    :root{--accent:#ff6a00;--muted:#e2e8f0;--white:#ffffff}
+    *{box-sizing:border-box}
+    body{
+      font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+      margin:0;
+      background:linear-gradient(135deg,#7f00ff 0%, #e100ff 50%, #ff6a00 100%);
+      color:var(--white);
+      -webkit-font-smoothing:antialiased
+    }
+    .container{max-width:1080px;margin:32px auto;padding:20px}
+    header{display:flex;align-items:center;gap:16px}
+    .logo{width:56px;height:56px;border-radius:12px;background:#111827;display:flex;align-items:center;justify-content:center;font-weight:700;color:#fff}
+    h1{font-size:28px;margin:0}
+    p.lead{color:var(--muted);margin:8px 0 20px}
+
+    .grid{display:grid;grid-template-columns:1fr;gap:24px}
+    @media(min-width:880px){.grid{grid-template-columns:1fr 420px}}
+
+    .card{background:rgba(0,0,0,0.4);padding:20px;border-radius:14px;box-shadow:0 6px 20px rgba(0,0,0,0.5)}
+    .hero-badge{display:inline-block;padding:6px 10px;border-radius:999px;background:rgba(255,255,255,0.1);font-size:13px;color:var(--muted);margin-bottom:12px}
+    .btn{background:var(--accent);color:#fff;padding:12px 16px;border-radius:10px;border:0;cursor:pointer;font-weight:700;transition:.2s}
+    .btn:hover{opacity:0.9}
+    .btn.ghost{background:transparent;border:1px solid rgba(255,255,255,0.2)}
+
+    form label{display:block;margin-bottom:6px;color:var(--muted);font-size:13px}
+    input[type=text], input[type=email], select{width:100%;padding:10px;border-radius:8px;border:1px solid rgba(255,255,255,0.2);background:rgba(255,255,255,0.05);color:var(--white);margin-bottom:12px}
+    .small{font-size:13px;color:var(--muted)}
+    footer{margin-top:20px;color:var(--muted);font-size:13px;text-align:center}
+
+    .thank{display:none;padding:20px;border-radius:12px;background:rgba(0,0,0,0.3)}
+    .show{display:block}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="logo">CB</div>
+      <div>
+        <h1>Instant Access — Closed Beta</h1>
+        <p class="lead">18+ • Play-Money Only • No deposits • No prizes • Get your test account on WhatsApp or Text Message</p>
+      </div>
+    </header>
+
+    <main class="grid">
+      <section class="card">
+        <span class="hero-badge">Closed Beta • Play-Money Only</span>
+        <h2 style="margin:6px 0 10px">Help us shape the platform</h2>
+        <p class="small">Join a limited group of testers to stress-test our tables, slots and lobby. All gameplay uses virtual credits — this is for product research only.</p>
+
+        <div style="margin-top:18px" class="features">
+          <div class="feature"><div class="icon">🎮</div><div><strong>Play-Money Sessions</strong><div class="small">No deposits, no payouts — only virtual credits for testing.</div></div></div>
+          <div class="feature"><div class="icon">⚙️</div><div><strong>Bug Reporting</strong><div class="small">Share bugs & performance feedback via WhatsApp or the feedback form.</div></div></div>
+          <div class="feature"><div class="icon">🚀</div><div><strong>Early Access</strong><div class="small">Be among the first to preview features before public launch.</div></div></div>
+        </div>
+
+        <hr style="margin:18px 0;border:none;border-top:1px solid rgba(255,255,255,0.1)" />
+
+        <h3 style="margin:0 0 8px">How the WhatsApp Fast-Track works</h3>
+        <ol class="small" style="padding-left:18px;margin:6px 0 0">
+          <li>Complete the quick signup form.</li>
+          <li>Tap the WhatsApp button on the confirmation screen.</li>
+          <li>Receive your test account details via WhatsApp in few minutes.</li>
+        </ol>
+
+      </section>
+
+      <aside class="card">
+        <h3 style="margin-top:0">Join the Closed Beta — WhatsApp Fast-Track</h3>
+        <form id="betaForm">
+          <label for="name">Full name</label>
+          <input id="name" name="name" type="text" placeholder="Ben Tucker" required />
+
+          <label for="email">Email address</label>
+          <input id="email" name="email" type="email" placeholder="you@example.com" required />
+
+                    
+          <label for="whatsapp">WhatsApp number/Mobile number</label>
+          <input id="whatsapp" name="whatsapp" type="text" placeholder="1-333-0000-6666" required />
+
+          <label for="device">Device</label>
+          <select id="device" name="device">
+            <option>Android</option>
+            <option>iOS</option>
+            <option>Desktop</option>
+          </select>
+
+          <label for="location">City / State</label>
+          <input id="location" name="location" type="text" placeholder="Lagos" />
+
+          <div style="margin:6px 0 12px"><label style="display:inline-block"><input id="confirm18" type="checkbox" required /> I confirm I am 18+.</label></div>
+
+          <button type="submit" class="btn">Send Me My Test Account on WhatsApp</button>
+          <button type="button" class="btn ghost" id="privacyBtn">Privacy & Terms</button>
+
+          <p class="disclaimer">By signing up you agree to receive messages from us via WhatsApp for beta onboarding and support. This beta is for product feedback only — no real money, no prizes.</p>
+        </form>
+
+        <div id="thank" class="thank">
+          <h3>🎉 You’re In — Next Step</h3>
+          <p class="small">Thanks! Tap the button below to open WhatsApp so we can send your test account details. If WhatsApp doesn't open, copy and paste the message into a chat with our number.</p>
+          <button id="openWhats" class="btn" style="margin-top:6px">Open WhatsApp Now</button>
+          <p class="small" style="margin-top:10px">You will receive your test credentials and instructions within 24 hours.</p>
+        </div>
+
+      </aside>
+    </main>
+
+    <footer>
+      <p class="small">⚠️ Important: This Closed Beta is strictly for players 18+. All gameplay uses virtual credits only — no real-money deposits, prizes, or payouts. This test is for product research.</p>
+    </footer>
+  </div>
+
+  <script>
+    const WHATSAPP_NUMBER = 'YOUR_NUMBER';
+    const PRE_FILL = encodeURIComponent('Hi, I just signed up for the Casino Closed Beta. My name is [name]. Please send my test account details.');
+
+    const form = document.getElementById('betaForm');
+    const thank = document.getElementById('thank');
+    const openWhats = document.getElementById('openWhats');
+
+    form.addEventListener('submit', function(e){
+      e.preventDefault();
+      thank.classList.add('show');
+      thank.scrollIntoView({behavior:'smooth'});
+      if(window.fbq) fbq('track', 'Lead');
+    });
+
+    openWhats.addEventListener('click', function(){
+      if(!WHATSAPP_NUMBER || WHATSAPP_NUMBER === 'YOUR_NUMBER'){
+        alert('Please set your WhatsApp number in the HTML code (replace YOUR_NUMBER).');
+        return;
+      }
+      const url = 'https://wa.me/' + WHATSAPP_NUMBER + '?text=' + PRE_FILL;
+      window.open(url, '_blank');
+    });
+
+    document.getElementById('privacyBtn').addEventListener('click', function(){
+      alert('Please link your Privacy Policy and Terms page. Replace this with a real link to your policy.');
+    });
+  </script>
+</body>
+</html>
